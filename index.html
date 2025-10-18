@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Humangram — Сеть человечности</title>
+  <meta name="description" content="Humangram — социальная сеть, где ценится человеческий контент. Только люди. Только аутентичность." />
+  <meta property="og:title" content="Humangram — Сеть человечности" />
+  <meta property="og:description" content="Социальная сеть нового поколения: человеческий контент, HumanScore, верификация автора." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-banner.png" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <link rel="manifest" href="assets/manifest.webmanifest" />
+  <link rel="preload" href="assets/logo.svg" as="image" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#"><img src="assets/logo.svg" alt="Humangram логотип" /> Humangram</a>
+    <nav>
+      <a href="#idea">Идея</a>
+      <a href="#how">Как это работает</a>
+      <a href="#roadmap">Дорожная карта</a>
+      <a href="#join" class="cta">Присоединиться</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <h1>Сеть человечности</h1>
+      <p class="lead">Humangram — пространство, где <strong>только люди</strong> создают и оценивают контент. <br/>Без примесей ИИ. Без ботов. С доверием.</p>
+      <div class="cta-row">
+        <a class="button primary" href="#join">Ранний доступ</a>
+        <a class="button ghost" href="#idea">Узнать больше</a>
+      </div>
+      <div class="tagline">HumanAuth · HumanScore · HumanFeed</div>
+    </section>
+
+    <section id="idea" class="wrap grid">
+      <div class="card">
+        <h2>Зачем</h2>
+        <p>Искусственный интеллект упростил создание контента — но усложнил доверие. Humangram возвращает ценность <em>человеческого голоса</em>.</p>
+      </div>
+      <div class="card">
+        <h2>Миссия</h2>
+        <p>Сформировать социальную сеть, где аутентичность — главный алгоритм. Где слышно <em>человека</em>, а не шум машин.</p>
+      </div>
+      <div class="card">
+        <h2>Принципы</h2>
+        <ul class="check">
+          <li>Верификация человека при входе</li>
+          <li>Оценка человечности контента (HumanScore)</li>
+          <li>Голосование людей: 🧍 / 🤖</li>
+          <li>Прозрачные правила и апелляции</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="how" class="wrap steps">
+      <h2>Как это работает</h2>
+      <ol>
+        <li><strong>HumanAuth.</strong> При регистрации — простая проверка «только человек»: селфи + рукописная подпись.</li>
+        <li><strong>HumanScore.</strong> Каждый пост анализируется на человечность: стиль, речь, поведенческие признаки.</li>
+        <li><strong>Голоса людей.</strong> Вместо лайков — <span title="человечки">🧍</span> и <span title="подозрение на ИИ">🤖</span>. Низкий рейтинг — ограничение прав оценивания.</li>
+      </ol>
+    </section>
+
+    <section id="roadmap" class="wrap roadmap">
+      <h2>Дорожная карта</h2>
+      <div class="timeline">
+        <div class="titem">
+          <span class="tbadge">Q4’25</span>
+          <h3>MVP: HumanCheck</h3>
+          <p>Веб‑сервис оценки «человечности» текста и авторизации.</p>
+        </div>
+        <div class="titem">
+          <span class="tbadge">Q1’26</span>
+          <h3>Beta: Humangram (тексты)</h3>
+          <p>Закрытая бета: публикации, HumanScore, голосования 🧍/🤖.</p>
+        </div>
+        <div class="titem">
+          <span class="tbadge">Q2’26</span>
+          <h3>Фото и видео</h3>
+          <p>HumanVision: сигналы подлинности фото/видео, анти‑бот‑механики.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="wrap join">
+      <h2>Присоединиться к раннему доступу</h2>
+      <p>Оставьте email — пришлём приглашение, когда откроем бету.</p>
+      <form id="waitlist" autocomplete="on">
+        <label for="email" class="vh">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required/>
+        <button class="button primary" type="submit">Встать в лист ожидания</button>
+        <p class="small muted">Нажимая, вы соглашаетесь с <a href="#privacy">политикой конфиденциальности</a>.</p>
+      </form>
+      <p id="thanks" class="thanks hidden">Готово! Мы добавили вас в лист ожидания.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <div class="left">
+      <a class="brand" href="#"><img src="assets/logo.svg" alt="Humangрам логотип" /> Humangram</a>
+      <p class="muted small">© 2025 Humangram. Только человеческий контент.</p>
+    </div>
+    <div class="right">
+      <a href="mailto:founders@humangram.ru" class="muted">Связаться</a>
+      <a href="#" class="muted">Политика</a>
+      <a href="#" class="muted">Условия</a>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
